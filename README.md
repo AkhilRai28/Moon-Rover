@@ -24,13 +24,13 @@ The Aarohan Project focuses on developing an advanced autonomous rover for Moon 
 9. [Errors Encountered](#errors-encountered)
 10. [Bibliography](#bibliography)
 
-## Dual Booting
+## 1. Dual Booting
 
 - **Setup**: Installed Ubuntu 22.04 alongside an existing operating system (typically Windows) to enable a dual-boot configuration.
 - **Tools Used**: Used Rufus 4.1 for creating a bootable USB drive with the Ubuntu installation ISO.
 - **Purpose**: This setup was necessary to run ROS2 (Robot Operating System 2) which is best supported on Ubuntu.
 
-## ROS2 Installation and Terminologies
+## 2. ROS2 Installation and Terminologies
 
 - **Installation**: Followed official ROS2 Humble Hawksbill installation guidelines for Ubuntu 22.04, setting up the environment with essential packages and dependencies.
 - **Key Concepts**:
@@ -39,7 +39,7 @@ The Aarohan Project focuses on developing an advanced autonomous rover for Moon 
   - **Packages**: Collections of nodes, data, and configuration files.
   - **Workspaces**: Directories where ROS2 packages are stored and managed.
 
-## ROS2 Commands
+## 3. ROS2 Commands
 
 - **Basic Commands**:
   - `ros2 launch`: Launches multiple nodes and configurations from a single file.
@@ -47,19 +47,19 @@ The Aarohan Project focuses on developing an advanced autonomous rover for Moon 
   - `ros2 node`: Manages nodes; commands include `ros2 node list` and `ros2 node info`.
   - `ros2 run`: Runs a node from a specified package.
 
-## Publisher-Subscriber Files
+## 4. Publisher-Subscriber Files
 
 - **Publisher**: A ROS2 node that sends data to a topic.
 - **Subscriber**: A ROS2 node that receives data from a topic.
 - **Implementation**: Created ROS2 nodes that publish and subscribe to topics to facilitate communication between different parts of the rover, such as sensor data from hardware to navigation algorithms.
 
-## Rover Mobility
+## 5. Rover Mobility
 
 - **Design**: Developed a four-wheeled rocker-type suspension system for enhanced stability on uneven surfaces.
 - **Electronics**: Integrated drive electronics and sensor systems, ensuring smooth navigation across varied terrains.
 - **Improvement**: Increased mobility and stability by 30%.
 
-## Autonomous Navigation
+## 6. Autonomous Navigation
 
 - **Algorithms**: Implemented using LiDAR and camera sensors, enhancing obstacle avoidance capabilities by 40%.
 - **Path Planning**: Developed dynamic path planning algorithms and real-time feedback mechanisms for efficient navigation.
