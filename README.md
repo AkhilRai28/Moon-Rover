@@ -64,23 +64,23 @@ The Aarohan Project focuses on developing an advanced autonomous rover for Moon 
 - **Algorithms**: Implemented using LiDAR and camera sensors, enhancing obstacle avoidance capabilities by 40%.
 - **Path Planning**: Developed dynamic path planning algorithms and real-time feedback mechanisms for efficient navigation.
 
-## RF Communication
+## 7. RF Communication
 
 - **Design**: Established robust RF communication systems, ensuring reliable data transmission between the rover and the base station.
 - **Integration**: Leveraged ROS2 for a flexible communication framework, increasing data transmission reliability by 35%.
 
-## Manipulator Design
+## 8. Manipulator Design
 
 - **Robotic Arm**: Engineered a 6-degree-of-freedom robotic arm for precise object manipulation.
 - **Gripper Mechanism**: Designed a lead screw-based gripper for versatile object handling.
 - **Efficiency**: Increased task efficiency by 50%.
 
-## Errors Encountered
+## 9. Errors Encountered
 
 - **Documentation**: Recorded various issues faced during development, including software bugs, hardware malfunctions, and integration challenges.
 - **Solutions**: Provided troubleshooting steps and solutions for each error encountered.
 
-## Bibliography
+## 10. Bibliography
 
 - [ROS2 Official Website](https://index.ros.org/doc/ros2/)
 - [What is ROS2? - Ubuntu Robotics](https://ubuntu.com/robotics/what-is-ros2)
