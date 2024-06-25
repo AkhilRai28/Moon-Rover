@@ -1,0 +1,16 @@
+/home/akhil-rover/rover/team_rover/install/package_example/lib/package_example/node_example
+/home/akhil-rover/rover/team_rover/install/package_example/share/ament_index/resource_index/package_run_dependencies/package_example
+/home/akhil-rover/rover/team_rover/install/package_example/share/ament_index/resource_index/parent_prefix_path/package_example
+/home/akhil-rover/rover/team_rover/install/package_example/share/package_example/environment/ament_prefix_path.sh
+/home/akhil-rover/rover/team_rover/install/package_example/share/package_example/environment/ament_prefix_path.dsv
+/home/akhil-rover/rover/team_rover/install/package_example/share/package_example/environment/path.sh
+/home/akhil-rover/rover/team_rover/install/package_example/share/package_example/environment/path.dsv
+/home/akhil-rover/rover/team_rover/install/package_example/share/package_example/local_setup.bash
+/home/akhil-rover/rover/team_rover/install/package_example/share/package_example/local_setup.sh
+/home/akhil-rover/rover/team_rover/install/package_example/share/package_example/local_setup.zsh
+/home/akhil-rover/rover/team_rover/install/package_example/share/package_example/local_setup.dsv
+/home/akhil-rover/rover/team_rover/install/package_example/share/package_example/package.dsv
+/home/akhil-rover/rover/team_rover/install/package_example/share/ament_index/resource_index/packages/package_example
+/home/akhil-rover/rover/team_rover/install/package_example/share/package_example/cmake/package_exampleConfig.cmake
+/home/akhil-rover/rover/team_rover/install/package_example/share/package_example/cmake/package_exampleConfig-version.cmake
+/home/akhil-rover/rover/team_rover/install/package_example/share/package_example/package.xml
