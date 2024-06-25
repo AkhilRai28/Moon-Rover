@@ -1,0 +1,324 @@
+[0.093s] Invoking command in '/home/akhil-rover/ws_test_microros/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/akhil-rover/ws_test_microros/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akhil-rover/ws_test_microros/install/micro_ros_msgs:/home/akhil-rover/ws_test_microros/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/akhil-rover/ws_test_microros/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akhil-rover/ws_test_microros/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/akhil-rover/ws_test_microros/src/uros/micro-ROS-Agent/micro_ros_agent -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/akhil-rover/ws_test_microros/install/micro_ros_agent
+[0.104s] Not searching for unused variables given on the command line.
+[0.189s] -- The C compiler identification is GNU 11.4.0
+[0.201s] -- Detecting C compiler ABI info
+[0.314s] -- Detecting C compiler ABI info - done
+[0.327s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.327s] -- Detecting C compile features
+[0.328s] -- Detecting C compile features - done
+[0.416s] -- The CXX compiler identification is GNU 11.4.0
+[0.427s] -- Detecting CXX compiler ABI info
+[0.559s] -- Detecting CXX compiler ABI info - done
+[0.572s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.573s] -- Detecting CXX compile features
+[0.573s] -- Detecting CXX compile features - done
+[0.626s] -- Configuring done
+[0.631s] -- Generating done
+[0.632s] -- Build files have been written to: /home/akhil-rover/ws_test_microros/build/micro_ros_agent
+[0.640s] Invoked command in '/home/akhil-rover/ws_test_microros/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/akhil-rover/ws_test_microros/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akhil-rover/ws_test_microros/install/micro_ros_msgs:/home/akhil-rover/ws_test_microros/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/akhil-rover/ws_test_microros/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akhil-rover/ws_test_microros/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/akhil-rover/ws_test_microros/src/uros/micro-ROS-Agent/micro_ros_agent -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/akhil-rover/ws_test_microros/install/micro_ros_agent
+[0.642s] Invoking command in '/home/akhil-rover/ws_test_microros/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/akhil-rover/ws_test_microros/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akhil-rover/ws_test_microros/install/micro_ros_msgs:/home/akhil-rover/ws_test_microros/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/akhil-rover/ws_test_microros/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akhil-rover/ws_test_microros/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/akhil-rover/ws_test_microros/build/micro_ros_agent -- -j4 -l4
+[0.719s] [  6%] [34m[1mCreating directories for 'xrceagent'[0m
+[0.845s] [ 12%] [34m[1mPerforming download step (git clone) for 'xrceagent'[0m
+[0.878s] Cloning into 'xrceagent'...
+[5.499s] Switched to a new branch 'ros2'
+[5.500s] Branch 'ros2' set up to track remote branch 'ros2' from 'origin'.
+[5.572s] [ 18%] [34m[1mPerforming update step for 'xrceagent'[0m
+[6.448s] HEAD is now at c25243c Enable Domain Override on Reference and XML Participant (#351)
+[6.496s] [ 25%] [34m[1mNo patch step for 'xrceagent'[0m
+[6.531s] [ 31%] [34m[1mPerforming configure step for 'xrceagent'[0m
+[6.543s] loading initial cache file /home/akhil-rover/ws_test_microros/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake
+[6.621s] -- The C compiler identification is GNU 11.4.0
+[6.631s] -- Detecting C compiler ABI info
+[6.728s] -- Detecting C compiler ABI info - done
+[6.739s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.739s] -- Detecting C compile features
+[6.740s] -- Detecting C compile features - done
+[6.816s] -- The CXX compiler identification is GNU 11.4.0
+[6.825s] -- Detecting CXX compiler ABI info
+[6.939s] -- Detecting CXX compiler ABI info - done
+[6.951s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.951s] -- Detecting CXX compile features
+[6.952s] -- Detecting CXX compile features - done
+[6.959s] -- Looking for pthread.h
+[7.061s] -- Looking for pthread.h - found
+[7.062s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.165s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.166s] -- Found Threads: TRUE  
+[7.184s] -- Configuring done
+[7.187s] -- Generating done
+[7.188s] -- Build files have been written to: /home/akhil-rover/ws_test_microros/build/micro_ros_agent/agent/src/xrceagent-build
+[7.215s] [ 37%] [34m[1mPerforming build step for 'xrceagent'[0m
+[7.276s] [ 12%] [34m[1mCreating directories for 'uagent'[0m
+[7.379s] [ 25%] [34m[1mNo download step for 'uagent'[0m
+[7.415s] [ 37%] [34m[1mNo update step for 'uagent'[0m
+[7.451s] [ 50%] [34m[1mNo patch step for 'uagent'[0m
+[7.489s] [ 62%] [34m[1mPerforming configure step for 'uagent'[0m
+[7.503s] loading initial cache file /home/akhil-rover/ws_test_microros/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake
+[7.510s] -- Setting build type to 'Release' as none was specified.
+[7.551s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[7.551s]   The package name passed to `find_package_handle_standard_args` (tinyxml2)
+[7.551s]   does not match the name of the calling package (TinyXML2).  This can lead
+[7.551s]   to problems in calling code that expects `find_package` result variables
+[7.551s]   (e.g., `_FOUND`) to follow a certain pattern.
+[7.551s] Call Stack (most recent call first):
+[7.552s]   cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)
+[7.552s]   /opt/ros/humble/share/fastrtps/cmake/fastrtps-config.cmake:51 (find_package)
+[7.552s]   CMakeLists.txt:153 (find_package)
+[7.552s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[7.552s] [0m
+[7.552s] -- Found tinyxml2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+[7.626s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.639s] -- Configuring done
+[7.653s] -- Generating done
+[7.654s] -- Build files have been written to: /home/akhil-rover/ws_test_microros/build/micro_ros_agent/agent/src/xrceagent-build
+[7.684s] [ 75%] [34m[1mPerforming build step for 'uagent'[0m
+[7.750s] [  7%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o[0m
+[7.750s] [  9%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o[0m
+[7.750s] [  9%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o[0m
+[7.751s] [  7%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o[0m
+[17.012s] [ 11%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o[0m
+[20.975s] [ 14%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o[0m
+[23.543s] [ 16%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o[0m
+[26.226s] [ 19%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o[0m
+[28.049s] [ 21%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o[0m
+[28.743s] [ 23%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o[0m
+[30.638s] [ 26%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o[0m
+[33.351s] [ 28%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o[0m
+[35.195s] [ 30%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/replier/Replier.cpp.o[0m
+[36.941s] [ 33%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/object/XRCEObject.cpp.o[0m
+[38.205s] [ 35%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/XRCETypes.cpp.o[0m
+[38.679s] [ 38%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/MessageHeader.cpp.o[0m
+[39.755s] [ 40%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/SubMessageHeader.cpp.o[0m
+[40.820s] [ 42%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/InputMessage.cpp.o[0m
+[41.931s] [ 45%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/OutputMessage.cpp.o[0m
+[43.309s] [ 47%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/utils/ArgumentParser.cpp.o[0m
+[47.341s] [ 50%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/Server.cpp.o[0m
+[47.875s] [ 52%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp.o[0m
+[48.380s] [ 54%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/custom/CustomAgent.cpp.o[0m
+[49.250s] [ 57%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv4AgentLinux.cpp.o[0m
+[49.291s] [ 59%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv6AgentLinux.cpp.o[0m
+[56.891s] [ 61%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv4AgentLinux.cpp.o[0m
+[58.121s] [ 64%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv6AgentLinux.cpp.o[0m
+[58.133s] [ 66%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/SerialAgentLinux.cpp.o[0m
+[60.746s] [ 69%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/TermiosAgentLinux.cpp.o[0m
+[66.069s] [ 71%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiSerialAgentLinux.cpp.o[0m
+[67.521s] [ 73%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiTermiosAgentLinux.cpp.o[0m
+[68.065s] [ 76%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o[0m
+[68.640s] [ 78%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o[0m
+[74.257s] [ 80%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o[0m
+[75.900s] [ 83%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServer.cpp.o[0m
+[76.000s] [ 85%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o[0m
+[76.159s] [ 88%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o[0m
+[77.492s] [ 90%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o[0m
+[79.700s] [ 92%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o[0m
+[81.552s] [ 95%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o[0m
+[81.875s] [ 97%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o[0m
+[96.451s] [100%] [32m[1mLinking CXX shared library libmicroxrcedds_agent.so[0m
+[97.007s] [100%] Built target microxrcedds_agent
+[97.044s] [34m[1mNo install step for 'uagent'[0m
+[97.081s] [34m[1mCompleted 'uagent'[0m
+[97.130s] Built target uagent
+[97.166s] [ 43%] [34m[1mPerforming install step for 'xrceagent'[0m
+[97.236s] [35m[1mConsolidate compiler generated dependencies of target microxrcedds_agent[0m
+[97.315s] [100%] Built target microxrcedds_agent
+[97.339s] [36mInstall the project...[0m
+[97.352s] -- Install configuration: "Release"
+[97.352s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.1
+[97.356s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4
+[97.356s] -- Set runtime path of "/home/akhil-rover/ws_test_microros/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.1" to ""
+[97.356s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/lib/libmicroxrcedds_agent.so
+[97.356s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent
+[97.357s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/logger
+[97.357s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/logger/Logger.hpp
+[97.357s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/requester
+[97.357s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/requester/Requester.hpp
+[97.357s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/Root.hpp
+[97.357s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/datareader
+[97.358s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/datareader/DataReader.hpp
+[97.358s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/message
+[97.358s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/message/Packet.hpp
+[97.358s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/message/InputMessage.hpp
+[97.358s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/message/OutputMessage.hpp
+[97.358s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/subscriber
+[97.358s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/subscriber/Subscriber.hpp
+[97.358s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/object
+[97.359s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/object/XRCEObject.hpp
+[97.359s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/scheduler
+[97.359s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/scheduler/PacketScheduler.hpp
+[97.359s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/scheduler/Scheduler.hpp
+[97.359s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/reader
+[97.359s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/reader/Reader.hpp
+[97.359s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/participant
+[97.359s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/participant/Participant.hpp
+[97.359s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/replier
+[97.360s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/replier/Replier.hpp
+[97.360s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/AgentInstance.hpp
+[97.360s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/Agent.hpp
+[97.360s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/processor
+[97.360s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/processor/Processor.hpp
+[97.360s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/types
+[97.360s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/types/XRCETypes.hpp
+[97.360s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/types/MessageHeader.hpp
+[97.361s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/types/Optional.hpp
+[97.361s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/types/SubMessageHeader.hpp
+[97.361s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/types/TopicPubSubType.hpp
+[97.361s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/visibility.hpp
+[97.361s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/topic
+[97.361s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/topic/Topic.hpp
+[97.361s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/middleware
+[97.361s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/middleware/fast
+[97.362s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastEntities.hpp
+[97.362s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp
+[97.362s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/middleware/ced
+[97.362s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp
+[97.362s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedEntities.hpp
+[97.362s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/middleware/fastdds
+[97.362s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp
+[97.362s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp
+[97.363s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/middleware/Middleware.hpp
+[97.363s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/middleware/utils
+[97.363s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp
+[97.363s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/p2p
+[97.363s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/p2p/InternalClient.hpp
+[97.363s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/p2p/InternalClientManager.hpp
+[97.363s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/datawriter
+[97.363s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/datawriter/DataWriter.hpp
+[97.364s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/utils
+[97.364s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/utils/Color.hpp
+[97.364s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/utils/SharedMutex.hpp
+[97.364s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/utils/ArgumentParser.hpp
+[97.364s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/utils/Time.hpp
+[97.364s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/utils/SharedMutexPriority.hpp
+[97.364s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/utils/TokenBucket.hpp
+[97.364s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/utils/SeqNum.hpp
+[97.365s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/utils/Functions.hpp
+[97.365s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/utils/Conversion.hpp
+[97.365s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/publisher
+[97.365s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/publisher/Publisher.hpp
+[97.365s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/client
+[97.365s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/client/ProxyClient.hpp
+[97.365s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/client/session
+[97.365s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/client/session/SessionInfo.hpp
+[97.365s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/client/session/stream
+[97.366s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/client/session/stream/InputStream.hpp
+[97.366s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/client/session/stream/OutputStream.hpp
+[97.366s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/client/session/Session.hpp
+[97.366s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport
+[97.366s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/Server.hpp
+[97.366s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/discovery
+[97.366s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp
+[97.366s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp
+[97.367s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp
+[97.367s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/can
+[97.367s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp
+[97.367s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/serial
+[97.367s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp
+[97.367s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp
+[97.367s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp
+[97.367s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp
+[97.368s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h
+[97.368s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp
+[97.368s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/tcp
+[97.368s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp
+[97.368s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp
+[97.368s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp
+[97.368s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp
+[97.368s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp
+[97.369s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp
+[97.369s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/custom
+[97.369s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/custom/CustomAgent.hpp
+[97.369s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/util
+[97.369s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp
+[97.369s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp
+[97.369s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/endpoint
+[97.369s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp
+[97.370s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp
+[97.370s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp
+[97.370s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp
+[97.370s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp
+[97.370s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp
+[97.370s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/SessionManager.hpp
+[97.370s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/p2p
+[97.370s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp
+[97.370s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp
+[97.371s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/stream_framing
+[97.371s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp
+[97.371s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/TransportRc.hpp
+[97.371s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/udp
+[97.371s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp
+[97.371s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp
+[97.371s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp
+[97.371s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp
+[97.372s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake
+[97.372s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake
+[97.372s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/include/uxr/agent/config.hpp
+[97.372s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/share/microxrcedds_agent/LICENSE
+[97.372s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake
+[97.373s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake
+[97.401s] [ 50%] [34m[1mCompleted 'xrceagent'[0m
+[97.447s] [ 50%] Built target xrceagent
+[97.478s] [ 56%] [34m[1mCreating directories for 'micro_ros_agent'[0m
+[97.582s] [ 62%] [34m[1mNo download step for 'micro_ros_agent'[0m
+[97.619s] [ 68%] [34m[1mNo update step for 'micro_ros_agent'[0m
+[97.653s] [ 75%] [34m[1mNo patch step for 'micro_ros_agent'[0m
+[97.690s] [ 81%] [34m[1mPerforming configure step for 'micro_ros_agent'[0m
+[97.703s] loading initial cache file /home/akhil-rover/ws_test_microros/build/micro_ros_agent/micro_ros_agent-prefix/tmp/micro_ros_agent-cache-.cmake
+[97.716s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[97.963s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[98.192s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[98.198s] -- Looking for C++ include pthread.h
+[98.318s] -- Looking for C++ include pthread.h - found
+[98.318s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[98.438s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[98.440s] -- Found Threads: TRUE  
+[98.446s] -- Found rosidl_cmake: 3.1.5 (/opt/ros/humble/share/rosidl_cmake/cmake)
+[98.448s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[98.476s] -- Found fastrtps_cmake_module: 2.2.2 (/opt/ros/humble/share/fastrtps_cmake_module/cmake)
+[98.479s] -- Found rmw_dds_common: 1.6.0 (/opt/ros/humble/share/rmw_dds_common/cmake)
+[98.527s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[98.541s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[98.555s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[98.577s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[98.610s] -- Found rmw_fastrtps_shared_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_shared_cpp/cmake)
+[98.688s] -- Found FastRTPS: /opt/ros/humble/include  
+[98.690s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[98.693s] -- Found ament_cmake_gtest: 1.3.7 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[98.695s] -- Found micro_ros_msgs: 3.0.1 (/home/akhil-rover/ws_test_microros/install/micro_ros_msgs/share/micro_ros_msgs/cmake)
+[98.814s] -- Configuring done
+[98.825s] -- Generating done
+[98.826s] -- Build files have been written to: /home/akhil-rover/ws_test_microros/build/micro_ros_agent
+[98.855s] [ 87%] [34m[1mPerforming build step for 'micro_ros_agent'[0m
+[98.919s] [ 33%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o[0m
+[98.919s] [ 33%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o[0m
+[98.920s] [ 66%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o[0m
+[98.920s] [ 66%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o[0m
+[103.546s] [ 83%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o[0m
+[107.341s] [100%] [32m[1mLinking CXX executable micro_ros_agent[0m
+[107.987s] [100%] Built target micro_ros_agent
+[108.027s] [34m[1mNo install step for 'micro_ros_agent'[0m
+[108.065s] [34m[1mCompleted 'micro_ros_agent'[0m
+[108.111s] Built target micro_ros_agent
+[108.126s] Invoked command in '/home/akhil-rover/ws_test_microros/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/akhil-rover/ws_test_microros/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akhil-rover/ws_test_microros/install/micro_ros_msgs:/home/akhil-rover/ws_test_microros/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/akhil-rover/ws_test_microros/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akhil-rover/ws_test_microros/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/akhil-rover/ws_test_microros/build/micro_ros_agent -- -j4 -l4
+[108.174s] Invoking command in '/home/akhil-rover/ws_test_microros/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/akhil-rover/ws_test_microros/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akhil-rover/ws_test_microros/install/micro_ros_msgs:/home/akhil-rover/ws_test_microros/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/akhil-rover/ws_test_microros/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akhil-rover/ws_test_microros/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/akhil-rover/ws_test_microros/build/micro_ros_agent
+[108.184s] -- Install configuration: ""
+[108.184s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+[108.185s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+[108.185s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+[108.185s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+[108.185s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+[108.186s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+[108.186s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+[108.186s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+[108.186s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+[108.187s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+[108.187s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+[108.187s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+[108.187s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+[108.188s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+[108.188s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+[108.188s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/share/micro_ros_agent/package.xml
+[108.188s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+[108.190s] -- Set runtime path of "/home/akhil-rover/ws_test_microros/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent" to ""
+[108.190s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/share/micro_ros_agent/launch
+[108.190s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py
+[108.197s] Invoked command in '/home/akhil-rover/ws_test_microros/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/akhil-rover/ws_test_microros/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akhil-rover/ws_test_microros/install/micro_ros_msgs:/home/akhil-rover/ws_test_microros/install/micro_ros_setup:/opt/ros/humble LD_LIBRARY_PATH=/home/akhil-rover/ws_test_microros/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akhil-rover/ws_test_microros/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/akhil-rover/ws_test_microros/build/micro_ros_agent

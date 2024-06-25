@@ -1,0 +1,210 @@
+[0.082s] Invoking command in '/home/akhil-rover/ws_test_microros/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/akhil-rover/ws_test_microros/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/akhil-rover/ws_test_microros/install/micro_ros_setup
+[0.223s] -- The C compiler identification is GNU 11.4.0
+[0.344s] -- The CXX compiler identification is GNU 11.4.0
+[0.358s] -- Detecting C compiler ABI info
+[0.455s] -- Detecting C compiler ABI info - done
+[0.466s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.467s] -- Detecting C compile features
+[0.468s] -- Detecting C compile features - done
+[0.472s] -- Detecting CXX compiler ABI info
+[0.583s] -- Detecting CXX compiler ABI info - done
+[0.594s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.595s] -- Detecting CXX compile features
+[0.596s] -- Detecting CXX compile features - done
+[0.604s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.858s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.993s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.113s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.139s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.142s] -- Added test 'lint_cmake' to check CMake code style
+[1.144s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.156s] -- Added test 'xmllint' to check XML markup files
+[1.158s] -- Configuring done
+[1.161s] -- Generating done
+[1.163s] -- Build files have been written to: /home/akhil-rover/ws_test_microros/build/micro_ros_setup
+[1.168s] Invoked command in '/home/akhil-rover/ws_test_microros/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/akhil-rover/ws_test_microros/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/akhil-rover/ws_test_microros/install/micro_ros_setup
+[1.171s] Invoking command in '/home/akhil-rover/ws_test_microros/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akhil-rover/ws_test_microros/build/micro_ros_setup -- -j4 -l4
+[1.224s] Invoked command in '/home/akhil-rover/ws_test_microros/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akhil-rover/ws_test_microros/build/micro_ros_setup -- -j4 -l4
+[1.268s] Invoking command in '/home/akhil-rover/ws_test_microros/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/akhil-rover/ws_test_microros/build/micro_ros_setup
+[1.279s] -- Install configuration: ""
+[1.280s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup
+[1.280s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup
+[1.280s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh
+[1.280s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv
+[1.280s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh
+[1.280s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv
+[1.281s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash
+[1.281s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh
+[1.281s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh
+[1.281s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv
+[1.281s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/share/micro_ros_setup/package.dsv
+[1.281s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup
+[1.282s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake
+[1.282s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake
+[1.282s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/share/micro_ros_setup/package.xml
+[1.282s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config
+[1.282s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/raspbian
+[1.282s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt
+[1.282s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos
+[1.283s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/raspbian/generic
+[1.283s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/raspbian/generic/configure.sh
+[1.283s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/raspbian/generic/build.sh
+[1.283s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/raspbian/generic/supported_platforms
+[1.283s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/raspbian/generic/flash.sh
+[1.284s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos
+[1.284s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/raspbian/generic/create.sh
+[1.284s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta
+[1.284s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/mbed
+[1.284s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt
+[1.284s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos
+[1.285s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/mbed/list_apps.sh
+[1.285s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/mbed/generic
+[1.285s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/mbed/generic/build.sh
+[1.285s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/mbed/generic/supported_platforms
+[1.285s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/mbed/generic/board.repos
+[1.286s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/mbed/generic/flash.sh
+[1.286s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos
+[1.286s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/mbed/generic/package.xml
+[1.286s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/mbed/generic/create.sh
+[1.287s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/agent_ros2_packages.txt
+[1.287s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/android
+[1.287s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/android/dev_ros2_packages.txt
+[1.287s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/android/dev_uros_packages.repos
+[1.287s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/android/generic
+[1.287s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/android/generic/build.sh
+[1.288s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/android/generic/flash.sh
+[1.288s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos
+[1.288s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/android/generic/package.xml
+[1.288s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/android/generic/create.sh
+[1.289s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/android/generic/client-colcon.meta
+[1.289s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos
+[1.289s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt
+[1.290s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos
+[1.290s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/olimex-stm32-e407
+[1.291s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh
+[1.291s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh
+[1.291s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos
+[1.291s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh
+[1.291s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos
+[1.292s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml
+[1.292s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh
+[1.292s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta
+[1.292s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/crazyflie21
+[1.292s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh
+[1.293s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh
+[1.293s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos
+[1.293s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh
+[1.293s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos
+[1.294s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml
+[1.294s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh
+[1.294s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta
+[1.294s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f446ze
+[1.294s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh
+[1.295s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh
+[1.295s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos
+[1.295s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh
+[1.295s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos
+[1.296s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml
+[1.296s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh
+[1.296s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta
+[1.296s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/list_apps.sh
+[1.296s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f446re
+[1.297s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh
+[1.297s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh
+[1.297s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos
+[1.297s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh
+[1.298s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos
+[1.298s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml
+[1.298s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh
+[1.298s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta
+[1.298s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f746zg
+[1.299s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh
+[1.299s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh
+[1.299s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos
+[1.299s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh
+[1.300s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos
+[1.300s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml
+[1.300s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh
+[1.300s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta
+[1.301s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f767zi
+[1.301s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh
+[1.301s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh
+[1.301s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos
+[1.302s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh
+[1.302s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos
+[1.302s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml
+[1.302s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh
+[1.302s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta
+[1.302s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/esp32
+[1.303s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/esp32/configure.sh
+[1.303s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/esp32/build.sh
+[1.303s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/esp32/board.repos
+[1.303s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/esp32/flash.sh
+[1.303s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos
+[1.304s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/esp32/README.md
+[1.304s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/esp32/package.xml
+[1.304s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/esp32/create.sh
+[1.304s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta
+[1.304s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/client_uros_packages.repos
+[1.305s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/renesas_ra
+[1.305s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt
+[1.305s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos
+[1.305s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/renesas_ra/list_apps.sh
+[1.305s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/renesas_ra/ra6m5
+[1.305s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh
+[1.305s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh
+[1.306s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos
+[1.306s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh
+[1.306s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos
+[1.306s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh
+[1.307s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta
+[1.307s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/utils.sh
+[1.307s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/agent_uros_packages.repos
+[1.307s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/generate_lib
+[1.307s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt
+[1.308s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos
+[1.308s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/generate_lib/generic
+[1.308s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/generate_lib/generic/build.sh
+[1.308s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/generate_lib/generic/flash.sh
+[1.308s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos
+[1.309s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/generate_lib/generic/package.xml
+[1.309s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/generate_lib/generic/create.sh
+[1.309s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake
+[1.309s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta
+[1.309s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/host
+[1.310s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/host/dev_ros2_packages.txt
+[1.310s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/host/dev_uros_packages.repos
+[1.310s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/host/generic
+[1.310s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/host/generic/build.sh
+[1.310s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/host/generic/client_host_packages.repos
+[1.311s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/host/generic/flash.sh
+[1.311s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/host/generic/package.xml
+[1.311s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/host/generic/create.sh
+[1.311s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta
+[1.311s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/host/client_ros2_packages.txt
+[1.312s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/client_ros2_packages.txt
+[1.312s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/zephyr
+[1.312s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt
+[1.312s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos
+[1.312s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/zephyr/list_apps.sh
+[1.313s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/zephyr/generic
+[1.313s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/zephyr/generic/configure.sh
+[1.313s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/zephyr/generic/build.sh
+[1.313s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/zephyr/generic/supported_platforms
+[1.314s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/zephyr/generic/board.repos
+[1.314s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/zephyr/generic/flash.sh
+[1.314s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos
+[1.314s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/zephyr/generic/package.xml
+[1.314s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/zephyr/generic/create.sh
+[1.314s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta
+[1.315s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh
+[1.315s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh
+[1.315s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh
+[1.315s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh
+[1.316s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh
+[1.316s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh
+[1.316s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh
+[1.316s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py
+[1.316s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh
+[1.317s] -- Installing: /home/akhil-rover/ws_test_microros/install/micro_ros_setup/lib/micro_ros_setup/component
+[1.319s] Invoked command in '/home/akhil-rover/ws_test_microros/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/akhil-rover/ws_test_microros/build/micro_ros_setup

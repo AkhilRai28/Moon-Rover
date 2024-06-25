@@ -1,0 +1,6 @@
+Invoking command in '/home/akhil-rover/ws_test_microros/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/akhil-rover/ws_test_microros/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/akhil-rover/ws_test_microros/install/micro_ros_setup
+Invoked command in '/home/akhil-rover/ws_test_microros/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/akhil-rover/ws_test_microros/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/akhil-rover/ws_test_microros/install/micro_ros_setup
+Invoking command in '/home/akhil-rover/ws_test_microros/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akhil-rover/ws_test_microros/build/micro_ros_setup -- -j4 -l4
+Invoked command in '/home/akhil-rover/ws_test_microros/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akhil-rover/ws_test_microros/build/micro_ros_setup -- -j4 -l4
+Invoking command in '/home/akhil-rover/ws_test_microros/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/akhil-rover/ws_test_microros/build/micro_ros_setup
+Invoked command in '/home/akhil-rover/ws_test_microros/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/akhil-rover/ws_test_microros/build/micro_ros_setup

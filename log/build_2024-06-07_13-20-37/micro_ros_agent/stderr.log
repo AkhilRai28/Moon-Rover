@@ -1,0 +1,14 @@
+Cloning into 'xrceagent'...
+Switched to a new branch 'ros2'
+HEAD is now at c25243c Enable Domain Override on Reference and XML Participant (#351)
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (tinyxml2)
+  does not match the name of the calling package (TinyXML2).  This can lead
+  to problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)
+  /opt/ros/humble/share/fastrtps/cmake/fastrtps-config.cmake:51 (find_package)
+  CMakeLists.txt:153 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
