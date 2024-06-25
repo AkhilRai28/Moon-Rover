@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/akhil-rover/ws_test_microros/build/micro_ros_agent/CMakeFiles/xrceagent"
+		},
+		{
+			"file" : "/home/akhil-rover/ws_test_microros/build/micro_ros_agent/CMakeFiles/xrceagent.rule"
+		},
+		{
+			"file" : "/home/akhil-rover/ws_test_microros/build/micro_ros_agent/CMakeFiles/xrceagent-complete.rule"
+		},
+		{
+			"file" : "/home/akhil-rover/ws_test_microros/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-build.rule"
+		},
+		{
+			"file" : "/home/akhil-rover/ws_test_microros/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-configure.rule"
+		},
+		{
+			"file" : "/home/akhil-rover/ws_test_microros/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-download.rule"
+		},
+		{
+			"file" : "/home/akhil-rover/ws_test_microros/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-install.rule"
+		},
+		{
+			"file" : "/home/akhil-rover/ws_test_microros/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-mkdir.rule"
+		},
+		{
+			"file" : "/home/akhil-rover/ws_test_microros/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-patch.rule"
+		},
+		{
+			"file" : "/home/akhil-rover/ws_test_microros/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"xrceagent"
+		],
+		"name" : "xrceagent"
+	}
+}

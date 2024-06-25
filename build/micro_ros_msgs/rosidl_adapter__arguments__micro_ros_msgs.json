@@ -1,0 +1,8 @@
+{
+  "package_name": "micro_ros_msgs",
+  "non_idl_tuples": [
+    "/home/akhil-rover/ws_test_microros/src/uros/micro_ros_msgs:msg/Graph.msg",
+    "/home/akhil-rover/ws_test_microros/src/uros/micro_ros_msgs:msg/Node.msg",
+    "/home/akhil-rover/ws_test_microros/src/uros/micro_ros_msgs:msg/Entity.msg"
+  ]
+}

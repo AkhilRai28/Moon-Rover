@@ -1,0 +1,36 @@
+<profiles>
+    <participant profile_name="default_xrce_participant">
+        <rtps>
+            <name>default_xrce_participant</name>
+        </rtps>
+    </participant>
+    <data_writer profile_name="shapetype_data_writer">
+        <topic>
+            <kind>WITH_KEY</kind>
+            <name>Square</name>
+            <dataType>ShapeType</dataType>
+        </topic>
+    </data_writer>
+    <data_reader profile_name="shapetype_data_reader">
+        <topic>
+            <kind>WITH_KEY</kind>
+            <name>Square</name>
+            <dataType>ShapeType</dataType>
+        </topic>
+    </data_reader>
+    <topic profile_name="shapetype_topic">
+        <kind>WITH_KEY</kind>
+        <name>Square</name>
+        <dataType>ShapeType</dataType>
+    </topic>
+    <requester profile_name="shapetype_requester"
+               service_name="shapetype_service"
+               request_type="request_type"
+               reply_type="reply_type">
+    </requester>
+    <replier profile_name="shapetype_replier"
+             service_name="shapetype_service"
+             request_type="request_type"
+             reply_type="reply_type">
+    </replier>
+</profiles>
